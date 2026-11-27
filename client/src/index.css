@@ -2876,3 +2876,35 @@ tbody tr:hover {
 .logout-btn:hover {
   background: #fff1f1;
 }
+
+.college-header {
+  background: #ffffff;
+  padding: 12px 25px;
+  border-bottom: 1px solid #dfe3e8;
+  color: #315f91;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.app-footer {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #dfe3e8;
+  color: #697783;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.app-footer p {
+  margin: 4px 0;
+}
+
+.app-footer strong {
+  color: #263238;
+}
+
+.app-footer small {
+  display: block;
+  margin-top: 8px;
+}

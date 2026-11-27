@@ -27,9 +27,30 @@ function StoreLayout({ onLogout }) {
       <div className="main-section">
         <Navbar />
 
+        {/* College Header */}
+        <div className="college-header">
+          ABESEC Ghaziabad
+        </div>
+
         <main className="page-content">
           <Outlet />
         </main>
+
+        {/* Project Footer */}
+        <footer className="app-footer">
+          <p>
+            <strong>Developed & Maintained By:</strong>
+            {' '}Roshan Jaiswal & Rishav Pandey
+          </p>
+
+          <p>CSE - 26</p>
+
+          <p>Full Stack Development Team</p>
+
+          <small>
+            © 2026 ABESEC Ghaziabad. All Rights Reserved.
+          </small>
+        </footer>
       </div>
     </div>
   );
