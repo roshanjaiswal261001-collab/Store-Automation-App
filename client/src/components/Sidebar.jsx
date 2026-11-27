@@ -9,10 +9,11 @@ import {
   Users,
   Truck,
   ChartNoAxesCombined,
-  Store
+  Store,
+  LogOut
 } from 'lucide-react';
 
-function Sidebar() {
+function Sidebar({ onLogout }) {
   const menuItems = [
     { name: 'Dashboard', path: '/', icon: LayoutDashboard },
     { name: 'Products', path: '/products', icon: Package },
@@ -67,6 +68,11 @@ function Sidebar() {
           <span>Store Manager</span>
         </div>
       </div>
+
+      <button className="logout-btn" onClick={onLogout}>
+        <LogOut size={18} />
+        <span>Logout</span>
+      </button>
 
     </aside>
   );
